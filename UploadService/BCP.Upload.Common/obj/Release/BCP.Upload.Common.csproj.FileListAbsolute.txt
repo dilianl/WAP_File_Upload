@@ -1,0 +1,4 @@
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\UploadService\BCP.Upload.Common\bin\Release\BCP.Upload.Common.dll
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\UploadService\BCP.Upload.Common\bin\Release\BCP.Upload.Common.pdb
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\UploadService\BCP.Upload.Common\obj\Release\BCP.Upload.Common.dll
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\UploadService\BCP.Upload.Common\obj\Release\BCP.Upload.Common.pdb

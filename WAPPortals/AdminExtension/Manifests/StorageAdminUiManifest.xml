@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<uiManifest>
+  <!--StorageSample Management-->
+  <extension name="StorageAdminExtension"
+             baseUri="~/Content/StorageAdmin">
+    <scripts>
+      <script src="~/Scripts/Storage.Resources.js" />
+      <script src="~/Scripts/Storage.Constants.js" />
+      
+      <script src="~/Scripts/Storage.Controller.js" />
+      <script src="~/Scripts/Storage.Menu.js" />
+      <script src="~/Scripts/Storage.Actions.js" />
+
+      <script src="~/Scripts/Storage.SharesTab.js" />
+      <script src="~/Scripts/Storage.QuickStartTab.js" />
+      <script src="~/Scripts/Storage.SettingsTab.js" />
+      <script src="~/StorageAdminExtension.js" />
+
+      <!--Self registration-->
+      <script src="~/extensions.data.js" />
+    </scripts>
+    <stylesheets>
+      <stylesheet src="~/Styles/StorageAdmin.css"/>
+      <stylesheet src="~/Styles/StorageControls.css"/>
+    </stylesheets>
+    <templates>
+      <template name="sharesTab"
+                src="~/Templates/Tabs/SharesTab.html" />
+      <template name="sharesTabEmpty"
+                src="~/Templates/Tabs/SharesTabEmpty.html" />
+      <template name="quickStartTab"
+                src="~/Templates/Tabs/QuickStartTab.html" />
+      <template name="quickStartTabContent"
+                src="~/Templates/Tabs/QuickStartTabContent.html" />
+      <template name="settingsTab"
+                src="~/Templates/Tabs/SettingsTab.html" />
+      <template name="registerEndpoint"
+                src="~/Templates/Dialogs/RegisterEndpoint.html" />
+      <template name="shareQuickCreate"
+          src="~/Templates/Menu/Storage.Menu.Share.QuickCreate.html" />
+    </templates>
+  </extension>
+</uiManifest>

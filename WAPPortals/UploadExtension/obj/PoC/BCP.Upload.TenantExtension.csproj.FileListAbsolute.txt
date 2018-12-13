@@ -1,0 +1,3 @@
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\WAPPortals\UploadExtension\obj\PoC\BCP.Upload.TenantExtension.csprojResolveAssemblyReference.cache
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\WAPPortals\UploadExtension\obj\PoC\BCP.Upload.TenantExtension.UploadTenantResources.resources
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\WAPPortals\UploadExtension\obj\PoC\BCP.Upload.TenantExtension.csproj.GenerateResource.Cache

@@ -1,0 +1,3 @@
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\UploadService\BCP.Upload.WebAPI\obj\PoC\BCP.Upload.WebAPI.csprojResolveAssemblyReference.cache
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\UploadService\BCP.Upload.WebAPI\obj\PoC\BCP.Upload.WebApi.ErrorMessages.resources
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\UploadService\BCP.Upload.WebAPI\obj\PoC\BCP.Upload.WebAPI.csproj.GenerateResource.Cache

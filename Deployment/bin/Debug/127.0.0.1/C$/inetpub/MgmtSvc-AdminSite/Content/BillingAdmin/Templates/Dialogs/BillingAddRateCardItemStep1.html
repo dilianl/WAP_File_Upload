@@ -1,0 +1,56 @@
+<div class="aux-createRateCardLineContainer">
+    <p class="aux-dialogHeader">Create Rate Card Line Item</p>
+    <p class="aux-dialogSubHeader">Create Rate Card Line Item</p>
+    
+    <div class="aux-createRateCardLineItem">
+        <div id="aux-createRateCardLineItemForm" class="aux-dialog-form">
+
+            <div class="aux-dialog-item">
+                <label for="resourceTypesDropDown" class="aux-dialog-item">Resource Types</label>
+                <select id="resourceTypesDropDown" name="resourceTypesDropDown" style="width:450px"></select>
+            </div>
+
+            <div class="aux-dialog-item">
+                <label for="resourcesDropDown" class="aux-dialog-item">Resources</label>
+                <select id="resourcesDropDown" name="resourcesDropDown" style="width:450px"></select>
+            </div>
+
+            <div class="aux-dialog-item">
+                <label for="ratePerHour" class="aux-dialog-item">Rate per hour ({{>data.currency}}) (e.g. 5.5)</label>
+                <input id="ratePerHour" name="ratePerHour" type="text" maxlength="128" class="waz-validation-smiley" data-val="true"
+                        data-val-required="Required" data-val-number="Invalid rate value" /><span id="unit"></span>
+
+            </div>
+
+            <div class="aux-dialog-item">
+                <label for="resourceStatus" class="aux-dialog-item">Resource Status</label>
+                <select id="resourceStatus" name="resourceStatus" style="width:450px">
+                    <option value="ACTIVE" selected>ACTIVE</option>
+                    <option value="STOPPED">STOPPED</option>
+                </select>
+            </div>
+
+
+            <div class="aux-dialog-item">
+                <label for="rateCardLineValidFrom" class="aux-dialog-item">Valid from</label>
+                <input type="text"
+                       id="rateCardLineValidFrom"
+                       placeholder="dd/mm/yyyy"
+                       maxlength="10"
+                       class="fx-textbox fx-validation fx-editablecontrol"
+                       readonly="readonly"
+                     />
+            </div>
+            <div class="aux-dialog-item">
+                <label for="rateCardLineValidTo" class="aux-dialog-item">Valid to</label>
+                <input type="text"
+                       id="rateCardLineValidTo"
+                       placeholder="dd/mm/yyyy"
+                       maxlength="10"
+                       class="fx-textbox fx-validation fx-editablecontrol"
+                       readonly="readonly" />
+            </div>
+
+        </div>
+    </div>
+</div>

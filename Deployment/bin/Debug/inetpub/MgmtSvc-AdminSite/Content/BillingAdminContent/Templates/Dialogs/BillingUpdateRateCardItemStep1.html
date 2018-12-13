@@ -1,0 +1,26 @@
+<div class="aux-createRateCardLineContainer">
+    <p class="aux-dialogHeader">Update Rate Card Line Item</p>
+    <p class="aux-dialogSubHeader">Update Rate Card Line Item</p>
+
+
+    <div class="aux-updateRateCardLineItemForm">
+        <div id="aux-updateRateCardLineItemForm" class="aux-dialog-form">
+
+            <div class="aux-dialog-item">
+                <label for="resourceType" class="aux-dialog-item">Resource Type (e.g. CPU)</label>
+                <input id="resourceType" name="resourceType" type="text" maxlength="128" value="{{>data.lineItem.ResourceType}}" disabled class="waz-validation-smiley" data-val="true" data-val-required="Required" />
+            </div>
+
+            <div class="aux-dialog-item">
+                <label for="vmTemplatesDropDown" class="aux-dialog-item">Resource Name: </label>
+                <input id="resourceId" value="{{>data.lineItem.ResourceName}}" disabled style="width:250px" />
+            </div>
+
+            <div class="aux-dialog-item">
+                <label for="ratePerHour" class="aux-dialog-item">Rate per hour ({{>data.currency}}) (e.g. 5.5)</label>
+                <input id="ratePerHour" name="ratePerHour" type="text" maxlength="128" class="waz-validation-smiley" data-val="true" data-val-required="Required" data-val-number="Invalid rate value" />
+
+            </div>
+        </div>
+    </div>
+</div>

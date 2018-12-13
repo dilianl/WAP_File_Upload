@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<uiManifest>
+  <!--Billing-->
+  <extension name="BillingTenantExtension"
+             baseUri="~/Content/BillingTenant">
+
+    <scripts>
+      <script src="~/Scripts/BillingTenant.BillingRecordsTab.js" />
+      <script src="~/Scripts/BillingTenant.BillingCurrentTab.js" />
+      <script src="~/Scripts/BillingTenant.Controller.js" />
+      <script src="~/Scripts/BillingTenant.SettingsTab.js" />
+      <script src="~/BillingTenantExtension.js" />
+
+      <!--Self registration-->
+      <script src="~/extensions.data.js" />
+    </scripts>
+    <stylesheets>
+      <stylesheet src="~/Styles/BillingTenant.css"/>
+    </stylesheets>
+    <templates>
+      <template name="billingRecordsTab"
+               src="~/Templates/Tabs/BillingRecordsTab.html" />
+      <template name="billingCurrentTab"
+                src="~/Templates/Tabs/BillingCurrentTab.html" />     
+      <template name="billingRecordsTabEmpty"
+                src="~/Templates/Tabs/BillingRecordsTabEmpty.html" />
+      <template name="settingsTab"
+                src="~/Templates/Tabs/SettingsTab.html" />
+    </templates>
+    
+  </extension>
+</uiManifest>

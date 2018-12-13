@@ -1,0 +1,38 @@
+﻿<div class="bi-settingsTab">
+    <h2>Rate Card Info for subscription: <b>{{>data.SubscriptionId}} ({{>data.planFriendlyName}})</b></h2>
+
+    <div class="aux-assignRateCard">
+        <div id="aux-viewRateCardInfoForm" class="aux-dialog-form">
+            <div class="aux-dialog-item">
+                <label for="rateCardInfo" class="aux-dialog-item">RateCard</label>
+                <span id="rateCardInfo" class="aux-dialog-item">{{>data.RateCardName}}</span>
+            </div>
+            <div class="aux-dialog-item">
+                <label for="rateCardDescription" class="aux-dialog-item">Description</label>
+                <span id="rateCardDescription" class="aux-dialog-item">{{>data.item.Description}}</span>
+            </div>
+            <div class="aux-dialog-item">
+                <label for="rateCardDescription" class="aux-dialog-item">Created on</label>
+                <span id="rateCardDescription" class="aux-dialog-item">{{>data.createdOn}}</span>
+            </div>
+            <div class="aux-dialog-item">
+                <label for="rateCardDescription" class="aux-dialog-item">Status</label>
+                <span id="rateCardDescription" class="aux-dialog-item">{{>data.status}}</span>
+            </div>
+            <div class="aux-dialog-item">
+                <label for="rateCardDescription" class="aux-dialog-item">Currency</label>
+                <span id="rateCardDescription" class="aux-dialog-item">{{>data.item.Currency.Code}}</span>
+            </div>
+            <div class="aux-dialog-item">
+                <label for="rateCardDescription" class="aux-dialog-item">Is Default for currency {{>data.item.Currency.Code}}:</label>
+                <span id="rateCardDescription" class="aux-dialog-item">
+                    {{if data.item.IsDefault}}
+                    YES
+                    {{else}}
+                    NO
+                    {{/if}}
+                </span>
+            </div>
+        </div>
+    </div>
+</div>

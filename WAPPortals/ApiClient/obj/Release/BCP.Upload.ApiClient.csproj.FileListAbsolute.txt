@@ -1,0 +1,1 @@
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\WAPPortals\ApiClient\obj\Release\BCP.Upload.ApiClient.csprojResolveAssemblyReference.cache

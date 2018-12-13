@@ -1,0 +1,93 @@
+.fxshell-drawer-menu li div.icon.DomainTenant {
+    background-position: 0 -97px;
+}
+
+.bi-search-container {
+    width: 350px;
+}
+
+.bi-radio-container {
+    margin-bottom: 10px;
+}
+
+    .bi-radio-container label {
+        display: inline;
+        font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+        font-size: 12px;
+        margin-left: 5px;
+        text-transform: none;
+        vertical-align: middle;
+    }
+
+    .bi-radio-container input {
+        vertical-align: middle;
+    }
+
+#bi-settings input[type="text"], #bi-settings input[type="password"] {
+    padding: 4px;
+    width: 200px;
+}
+
+.aux-readonlyvalue > .bi-contact-line {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+    .aux-readonlyvalue > .bi-contact-line.first-line {
+        margin-top: 10px;
+    }
+
+    .aux-readonlyvalue > .bi-contact-line.last-line {
+        margin-bottom: 20px;
+    }
+
+.bi-info-value {
+    width: 550px;
+}
+
+.bi-create-grid-container .fx-grid-container {
+    width: 550px;
+    height: 215px;
+}
+
+.bi-create-grid-container.large .fx-grid-container {
+    /* Use a larger grid when we hide the subscription selector */
+    width: 550px;
+    height: 400px;
+}
+
+.bi-grid-scroller {
+    margin: 0px;
+    overflow: auto;
+    padding: 0px;
+}
+
+.bi-contactinfo-scroller {
+    height: 380px;
+    margin-bottom: 29px;
+    overflow: auto;
+    width: 450px;
+}
+
+.bi-settingsTab {
+    width: 95%;
+}
+
+.bi-gridFilterContainer{
+    border-bottom: 2px solid #88b9e3;      
+    padding-bottom: 10px;   
+    margin: 41px 0 22px 0;
+}
+
+.bi-gridFilterDateLabel{
+    display: inline;
+    padding-right: 10px;
+	padding-left: 10px;
+    font-size: 13px;
+    font-family: Segoe UI Semibold;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+

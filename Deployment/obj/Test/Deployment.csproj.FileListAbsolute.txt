@@ -1,0 +1,12 @@
+C:\_Source\DeploymentWAP\Deployment\Deployment\bin\Test\Deployment.exe.config
+C:\_Source\DeploymentWAP\Deployment\Deployment\bin\Test\Deployment.exe
+C:\_Source\DeploymentWAP\Deployment\Deployment\bin\Test\Deployment.pdb
+C:\_Source\DeploymentWAP\Deployment\Deployment\obj\Test\Deployment.csprojResolveAssemblyReference.cache
+C:\_Source\DeploymentWAP\Deployment\Deployment\obj\Test\Deployment.exe
+C:\_Source\DeploymentWAP\Deployment\Deployment\obj\Test\Deployment.pdb
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\Deployment\bin\Test\Deployment.exe.config
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\Deployment\bin\Test\Deployment.exe
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\Deployment\bin\Test\Deployment.pdb
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\Deployment\obj\Test\Deployment.csprojResolveAssemblyReference.cache
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\Deployment\obj\Test\Deployment.exe
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\Deployment\obj\Test\Deployment.pdb

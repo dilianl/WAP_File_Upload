@@ -1,0 +1,5 @@
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\Deployment\bin\Release\Deployment.exe.config
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\Deployment\bin\Release\Deployment.exe
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\Deployment\bin\Release\Deployment.pdb
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\Deployment\obj\Release\Deployment.exe
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\Deployment\obj\Release\Deployment.pdb

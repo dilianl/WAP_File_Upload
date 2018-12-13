@@ -1,0 +1,17 @@
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\WAPPortals\Common\bin\Release\BCP.Upload.WAP.Common.dll
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\WAPPortals\Common\bin\Release\BCP.Upload.WAP.Common.pdb
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\WAPPortals\Common\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\WAPPortals\Common\bin\Release\System.Web.Helpers.dll
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\WAPPortals\Common\bin\Release\System.Web.Mvc.dll
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\WAPPortals\Common\bin\Release\System.Web.Razor.dll
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\WAPPortals\Common\bin\Release\System.Web.WebPages.Deployment.dll
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\WAPPortals\Common\bin\Release\System.Web.WebPages.dll
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\WAPPortals\Common\bin\Release\System.Web.WebPages.Razor.dll
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\WAPPortals\Common\bin\Release\System.Web.Helpers.xml
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\WAPPortals\Common\bin\Release\System.Web.Mvc.xml
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\WAPPortals\Common\bin\Release\System.Web.Razor.xml
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\WAPPortals\Common\bin\Release\System.Web.WebPages.xml
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\WAPPortals\Common\bin\Release\System.Web.WebPages.Deployment.xml
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\WAPPortals\Common\bin\Release\System.Web.WebPages.Razor.xml
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\WAPPortals\Common\obj\Release\BCP.Upload.WAP.Common.dll
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\WAPPortals\Common\obj\Release\BCP.Upload.WAP.Common.pdb

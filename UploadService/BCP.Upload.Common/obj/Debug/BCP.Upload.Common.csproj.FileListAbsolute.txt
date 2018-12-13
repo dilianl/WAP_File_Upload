@@ -1,0 +1,8 @@
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\UploadService\BCP.Upload.Common\bin\Debug\BCP.Upload.Common.dll
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\UploadService\BCP.Upload.Common\bin\Debug\BCP.Upload.Common.pdb
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\UploadService\BCP.Upload.Common\obj\Debug\BCP.Upload.Common.dll
+C:\_Source\Bulpros.Cloud\Advanced\src\DEV\Advanced\UploadService\BCP.Upload.Common\obj\Debug\BCP.Upload.Common.pdb
+C:\_Source\Bulpros.Cloud\Billing\src\DEV\Advanced\UploadService\BCP.Upload.Common\bin\Debug\BCP.Upload.Common.dll
+C:\_Source\Bulpros.Cloud\Billing\src\DEV\Advanced\UploadService\BCP.Upload.Common\bin\Debug\BCP.Upload.Common.pdb
+C:\_Source\Bulpros.Cloud\Billing\src\DEV\Advanced\UploadService\BCP.Upload.Common\obj\Debug\BCP.Upload.Common.dll
+C:\_Source\Bulpros.Cloud\Billing\src\DEV\Advanced\UploadService\BCP.Upload.Common\obj\Debug\BCP.Upload.Common.pdb

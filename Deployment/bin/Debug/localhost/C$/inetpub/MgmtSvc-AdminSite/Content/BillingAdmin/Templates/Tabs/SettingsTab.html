@@ -1,0 +1,56 @@
+﻿<div class="um-settingsTab">
+    <div id="um-settings" class="waz-config">
+        <h2>{{:SettingsTabResourceProviderSettingsInfo}}</h2>
+
+        <div class="waz-config-section">
+            <div class="waz-config-setting">
+                <label for="um-endpointUrl">
+                    {{:SettingsTabEndpointURL}}
+                </label>
+
+                <div class="waz-config-setting-value">
+                    <input
+                        type="text"
+                        id="um-endpointUrl"
+                        value=""
+                        placeholder="{{:SettingsTabEndpointURLplaceholder}}"
+                        maxlength="512"
+                        class="fx-textbox fx-validation fx-editablecontrol"
+                        data-val="true" data-val-required="Required"
+                        data-val-length-max="512"
+                        data-val-regex="Not URL" data-val-regex-pattern="^(http|https):\/\/(.*)$" />
+                </div>
+            </div>
+            <div class="waz-config-setting">
+                <label for="um-username">
+                    {{:SettingsTabUsername}}
+                </label>
+                <div class="waz-config-setting-value">
+                    <input
+                        type="text"
+                        id="um-username"
+                        placeholder="{{:SettingsTabUsernameplaceholder}}"
+                        data-val="true"
+                        data-val-length-max="128"
+                        data-val-required="Required"
+                        value="" />
+                </div>
+            </div>
+            <div class="waz-config-setting">
+                <label for="um-password">
+                    {{:SettingsTabPassword}}
+                </label>
+                <div class="waz-config-setting-value">
+                    <input
+                        type="password"
+                        id="um-password"
+                        placeholder="{{:SettingsTabPasswordplaceholder}}"
+                        data-val="true"
+                        data-val-length-max="128"
+                        data-val-required="Required"
+                        value="" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

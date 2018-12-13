@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<uiManifest>
+  <!--Billing Management-->
+  <extension name="BillingAdminExtension"
+             baseUri="~/Content/BillingAdmin">
+    <scripts>
+      <script src="~/Scripts/Billing.Controller.js" />
+      <script src="~/Scripts/Billing.QuickStartTab.js" />
+
+
+      <script src="~/Scripts/Billing.Navigation.js" />
+      <script src="~/Scripts/Billing.RateCardTab.js" />
+      <script src="~/Scripts/Billing.RateCardLinesTab.js" />
+      <script src="~/Scripts/Billing.RateCardConfigurationTab.js" />
+      <script src="~/Scripts/Billing.SystemTab.js" />
+      
+
+      <script src="~/Scripts/Billing.SettingsTab.js" />
+      <script src="~/BillingAdminExtension.js" />
+
+      <!--Self registration-->
+      <script src="~/extensions.data.js" />
+    </scripts>
+    <stylesheets>
+      <stylesheet src="~/Styles/BillingAdmin.css"/>
+    </stylesheets>
+    <templates>
+      <template name="quickStartTab"
+                src="~/Templates/Tabs/QuickStartTab.html" />
+      <template name="rateCardLinesTabContainer"
+                      src="~/Templates/RateCardsTabView/RateCardLinesTabView/RateCardLine.TabContainer.html" />
+
+      <template name="systemTab"
+                      src="~/Templates/Tabs/SystemTab.html" />
+
+      <template name="rateCardQuickCreate"
+                       src="~/Templates/Create/Billing.QuickCreateRateCard.html" />
+
+      <template name="addRateCardItem" src="~/Templates/Dialogs/BillingAddRateCardItemStep1.html" />
+      <template name="updateRateCardItem" src="~/Templates/Dialogs/BillingUpdateRateCardItemStep1.html" />
+
+      <template name="createRateCard"
+                            src="~/Templates/Dialogs/BillingCreateRateCardStep1.html" />
+
+      
+      <template name="viewRateCard"
+                                 src="~/Templates/Tabs/viewRateCard.html" />
+
+
+      <template name="viewBillingInfo"
+                                       src="~/Templates/Tabs/viewBillingInfo.html" />
+      <template name="downloadBillingInfo"
+                                      src="~/Templates/Tabs/downloadBillingInfo.html" />
+      
+      <template name="cloneRateCard"
+                            src="~/Templates/Dialogs/BillingCloneRateCardStep1.html" />
+
+
+      <!--<template name="RateCardLinesTab"
+                     src="~/Templates/RateCardsTabView/RateCardLinesTabView/RateCardLine.TabContainer.html" />-->
+
+      <template name="rateCardTabContainer"
+                     src="~/Templates/RateCardsTabView/RateCard.TabContainer.html" />
+
+      <template name="rateCardsMainListEmpty"
+                    src="~/Templates/RateCardsTabView/RateCardsMainListEmpty.html" />
+
+      <template name="rateCardTab"
+               src="~/Templates/Tabs/RateCardTab.html" />
+      <template name="rateCardConfigurationTab"
+              src="~/Templates/Tabs/RateCardConfigurationTab.html" />
+
+      
+      <template name="quickStartTabContent"
+                src="~/Templates/Tabs/QuickStartTabContent.html" />
+      <template name="settingsTab"
+                src="~/Templates/Tabs/SettingsTab.html" />
+      <template name="registerEndpoint"
+                src="~/Templates/Dialogs/RegisterEndpoint.html" />
+
+    </templates>
+  </extension>
+</uiManifest>

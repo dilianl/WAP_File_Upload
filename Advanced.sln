@@ -1,0 +1,167 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UploadServices", "UploadServices", "{0EA67A1E-1005-4555-933B-4B482BE72AF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WAPPortals", "WAPPortals", "{4D556E76-F1A7-48DB-BD53-79A72C4A545E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{8BEEAAC9-36A5-4E93-A1F8-FBFB548118FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deployment", "Deployment\Deployment.csproj", "{D5AB56C1-F1F5-4DE2-8ED5-FDA1A8164CC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCP.Upload.Common", "UploadService\BCP.Upload.Common\BCP.Upload.Common.csproj", "{F84F36B6-5DDA-4636-9BEC-423B53078E1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCP.Upload.Data", "UploadService\BCP.Upload.Data\BCP.Upload.Data.csproj", "{1E2D5D90-CD4F-414B-8437-A774A34A495A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCP.Upload.WebAPI", "UploadService\BCP.Upload.WebAPI\BCP.Upload.WebAPI.csproj", "{67864557-FC6D-4750-A7F2-FBAF519F0A01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCP.Upload.TenantExtension", "WAPPortals\UploadExtension\BCP.Upload.TenantExtension.csproj", "{8F2226FA-030B-4367-87EE-722D97F502BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCP.Upload.WAP.Common", "WAPPortals\Common\BCP.Upload.WAP.Common.csproj", "{8EE756C0-A570-4749-A25D-97D5320CA0A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCP.Upload.ApiClient", "WAPPortals\ApiClient\BCP.Upload.ApiClient.csproj", "{CC16EEDA-663B-4E41-8047-0AAED4A03680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCP.Upload", "WAPPortals\ApiClients\BCP.Upload.csproj", "{8D180247-ADD6-4FB4-BB98-9F2B9F3EBD6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BCP.Upload.AdminExtension", "WAPPortals\AdminExtension\BCP.Upload.AdminExtension.csproj", "{ADB067C9-C4FE-483C-BA6C-6C06FAD70116}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		PoC|Any CPU = PoC|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Test|Any CPU = Test|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5AB56C1-F1F5-4DE2-8ED5-FDA1A8164CC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5AB56C1-F1F5-4DE2-8ED5-FDA1A8164CC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5AB56C1-F1F5-4DE2-8ED5-FDA1A8164CC1}.PoC|Any CPU.ActiveCfg = PoC|Any CPU
+		{D5AB56C1-F1F5-4DE2-8ED5-FDA1A8164CC1}.PoC|Any CPU.Build.0 = PoC|Any CPU
+		{D5AB56C1-F1F5-4DE2-8ED5-FDA1A8164CC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5AB56C1-F1F5-4DE2-8ED5-FDA1A8164CC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5AB56C1-F1F5-4DE2-8ED5-FDA1A8164CC1}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{D5AB56C1-F1F5-4DE2-8ED5-FDA1A8164CC1}.Test|Any CPU.Build.0 = Test|Any CPU
+		{F84F36B6-5DDA-4636-9BEC-423B53078E1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F84F36B6-5DDA-4636-9BEC-423B53078E1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F84F36B6-5DDA-4636-9BEC-423B53078E1B}.PoC|Any CPU.ActiveCfg = PoC|Any CPU
+		{F84F36B6-5DDA-4636-9BEC-423B53078E1B}.PoC|Any CPU.Build.0 = PoC|Any CPU
+		{F84F36B6-5DDA-4636-9BEC-423B53078E1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F84F36B6-5DDA-4636-9BEC-423B53078E1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F84F36B6-5DDA-4636-9BEC-423B53078E1B}.Test|Any CPU.ActiveCfg = PoC|Any CPU
+		{F84F36B6-5DDA-4636-9BEC-423B53078E1B}.Test|Any CPU.Build.0 = PoC|Any CPU
+		{1E2D5D90-CD4F-414B-8437-A774A34A495A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E2D5D90-CD4F-414B-8437-A774A34A495A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E2D5D90-CD4F-414B-8437-A774A34A495A}.PoC|Any CPU.ActiveCfg = PoC|Any CPU
+		{1E2D5D90-CD4F-414B-8437-A774A34A495A}.PoC|Any CPU.Build.0 = PoC|Any CPU
+		{1E2D5D90-CD4F-414B-8437-A774A34A495A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E2D5D90-CD4F-414B-8437-A774A34A495A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E2D5D90-CD4F-414B-8437-A774A34A495A}.Test|Any CPU.ActiveCfg = PoC|Any CPU
+		{1E2D5D90-CD4F-414B-8437-A774A34A495A}.Test|Any CPU.Build.0 = PoC|Any CPU
+		{67864557-FC6D-4750-A7F2-FBAF519F0A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67864557-FC6D-4750-A7F2-FBAF519F0A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67864557-FC6D-4750-A7F2-FBAF519F0A01}.PoC|Any CPU.ActiveCfg = PoC|Any CPU
+		{67864557-FC6D-4750-A7F2-FBAF519F0A01}.PoC|Any CPU.Build.0 = PoC|Any CPU
+		{67864557-FC6D-4750-A7F2-FBAF519F0A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67864557-FC6D-4750-A7F2-FBAF519F0A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67864557-FC6D-4750-A7F2-FBAF519F0A01}.Test|Any CPU.ActiveCfg = PoC|Any CPU
+		{67864557-FC6D-4750-A7F2-FBAF519F0A01}.Test|Any CPU.Build.0 = PoC|Any CPU
+		{8F2226FA-030B-4367-87EE-722D97F502BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F2226FA-030B-4367-87EE-722D97F502BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F2226FA-030B-4367-87EE-722D97F502BE}.PoC|Any CPU.ActiveCfg = PoC|Any CPU
+		{8F2226FA-030B-4367-87EE-722D97F502BE}.PoC|Any CPU.Build.0 = PoC|Any CPU
+		{8F2226FA-030B-4367-87EE-722D97F502BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F2226FA-030B-4367-87EE-722D97F502BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F2226FA-030B-4367-87EE-722D97F502BE}.Test|Any CPU.ActiveCfg = PoC|Any CPU
+		{8F2226FA-030B-4367-87EE-722D97F502BE}.Test|Any CPU.Build.0 = PoC|Any CPU
+		{8EE756C0-A570-4749-A25D-97D5320CA0A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EE756C0-A570-4749-A25D-97D5320CA0A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EE756C0-A570-4749-A25D-97D5320CA0A8}.PoC|Any CPU.ActiveCfg = PoC|Any CPU
+		{8EE756C0-A570-4749-A25D-97D5320CA0A8}.PoC|Any CPU.Build.0 = PoC|Any CPU
+		{8EE756C0-A570-4749-A25D-97D5320CA0A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EE756C0-A570-4749-A25D-97D5320CA0A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EE756C0-A570-4749-A25D-97D5320CA0A8}.Test|Any CPU.ActiveCfg = PoC|Any CPU
+		{8EE756C0-A570-4749-A25D-97D5320CA0A8}.Test|Any CPU.Build.0 = PoC|Any CPU
+		{CC16EEDA-663B-4E41-8047-0AAED4A03680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC16EEDA-663B-4E41-8047-0AAED4A03680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC16EEDA-663B-4E41-8047-0AAED4A03680}.PoC|Any CPU.ActiveCfg = PoC|Any CPU
+		{CC16EEDA-663B-4E41-8047-0AAED4A03680}.PoC|Any CPU.Build.0 = PoC|Any CPU
+		{CC16EEDA-663B-4E41-8047-0AAED4A03680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC16EEDA-663B-4E41-8047-0AAED4A03680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC16EEDA-663B-4E41-8047-0AAED4A03680}.Test|Any CPU.ActiveCfg = PoC|Any CPU
+		{CC16EEDA-663B-4E41-8047-0AAED4A03680}.Test|Any CPU.Build.0 = PoC|Any CPU
+		{8D180247-ADD6-4FB4-BB98-9F2B9F3EBD6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D180247-ADD6-4FB4-BB98-9F2B9F3EBD6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D180247-ADD6-4FB4-BB98-9F2B9F3EBD6E}.PoC|Any CPU.ActiveCfg = PoC|Any CPU
+		{8D180247-ADD6-4FB4-BB98-9F2B9F3EBD6E}.PoC|Any CPU.Build.0 = PoC|Any CPU
+		{8D180247-ADD6-4FB4-BB98-9F2B9F3EBD6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D180247-ADD6-4FB4-BB98-9F2B9F3EBD6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D180247-ADD6-4FB4-BB98-9F2B9F3EBD6E}.Test|Any CPU.ActiveCfg = PoC|Any CPU
+		{8D180247-ADD6-4FB4-BB98-9F2B9F3EBD6E}.Test|Any CPU.Build.0 = PoC|Any CPU
+		{ADB067C9-C4FE-483C-BA6C-6C06FAD70116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB067C9-C4FE-483C-BA6C-6C06FAD70116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB067C9-C4FE-483C-BA6C-6C06FAD70116}.PoC|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB067C9-C4FE-483C-BA6C-6C06FAD70116}.PoC|Any CPU.Build.0 = Release|Any CPU
+		{ADB067C9-C4FE-483C-BA6C-6C06FAD70116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB067C9-C4FE-483C-BA6C-6C06FAD70116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADB067C9-C4FE-483C-BA6C-6C06FAD70116}.Test|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB067C9-C4FE-483C-BA6C-6C06FAD70116}.Test|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D5AB56C1-F1F5-4DE2-8ED5-FDA1A8164CC1} = {8BEEAAC9-36A5-4E93-A1F8-FBFB548118FA}
+		{F84F36B6-5DDA-4636-9BEC-423B53078E1B} = {0EA67A1E-1005-4555-933B-4B482BE72AF6}
+		{1E2D5D90-CD4F-414B-8437-A774A34A495A} = {0EA67A1E-1005-4555-933B-4B482BE72AF6}
+		{67864557-FC6D-4750-A7F2-FBAF519F0A01} = {0EA67A1E-1005-4555-933B-4B482BE72AF6}
+		{8F2226FA-030B-4367-87EE-722D97F502BE} = {4D556E76-F1A7-48DB-BD53-79A72C4A545E}
+		{8EE756C0-A570-4749-A25D-97D5320CA0A8} = {4D556E76-F1A7-48DB-BD53-79A72C4A545E}
+		{CC16EEDA-663B-4E41-8047-0AAED4A03680} = {4D556E76-F1A7-48DB-BD53-79A72C4A545E}
+		{8D180247-ADD6-4FB4-BB98-9F2B9F3EBD6E} = {4D556E76-F1A7-48DB-BD53-79A72C4A545E}
+		{ADB067C9-C4FE-483C-BA6C-6C06FAD70116} = {4D556E76-F1A7-48DB-BD53-79A72C4A545E}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs:8080/tfs/bulpros
+		SccProjectUniqueName0 = Deployment\\Deployment.csproj
+		SccProjectTopLevelParentUniqueName0 = Advanced.sln
+		SccProjectName0 = Deployment
+		SccLocalPath0 = Deployment
+		SccProjectUniqueName1 = UploadService\\BCP.Upload.Common\\BCP.Upload.Common.csproj
+		SccProjectTopLevelParentUniqueName1 = Advanced.sln
+		SccProjectName1 = UploadService/BCP.Upload.Common
+		SccLocalPath1 = UploadService\\BCP.Upload.Common
+		SccProjectUniqueName2 = UploadService\\BCP.Upload.Data\\BCP.Upload.Data.csproj
+		SccProjectTopLevelParentUniqueName2 = Advanced.sln
+		SccProjectName2 = UploadService/BCP.Upload.Data
+		SccLocalPath2 = UploadService\\BCP.Upload.Data
+		SccProjectUniqueName3 = UploadService\\BCP.Upload.WebAPI\\BCP.Upload.WebAPI.csproj
+		SccProjectTopLevelParentUniqueName3 = Advanced.sln
+		SccProjectName3 = UploadService/BCP.Upload.WebAPI
+		SccLocalPath3 = UploadService\\BCP.Upload.WebAPI
+		SccProjectUniqueName4 = WAPPortals\\UploadExtension\\BCP.Upload.TenantExtension.csproj
+		SccProjectTopLevelParentUniqueName4 = Advanced.sln
+		SccProjectName4 = WAPPortals/UploadExtension
+		SccLocalPath4 = WAPPortals\\UploadExtension
+		SccProjectUniqueName5 = WAPPortals\\ApiClients\\BCP.Upload.csproj
+		SccProjectTopLevelParentUniqueName5 = Advanced.sln
+		SccProjectName5 = WAPPortals/ApiClients
+		SccLocalPath5 = WAPPortals\\ApiClients
+		SccProjectUniqueName6 = WAPPortals\\ApiClient\\BCP.Upload.ApiClient.csproj
+		SccProjectTopLevelParentUniqueName6 = Advanced.sln
+		SccProjectName6 = WAPPortals/ApiClient
+		SccLocalPath6 = WAPPortals\\ApiClient
+		SccProjectUniqueName7 = WAPPortals\\Common\\BCP.Upload.WAP.Common.csproj
+		SccProjectTopLevelParentUniqueName7 = Advanced.sln
+		SccProjectName7 = WAPPortals/Common
+		SccLocalPath7 = WAPPortals\\Common
+		SccLocalPath8 = .
+		SccProjectUniqueName9 = WAPPortals\\AdminExtension\\BCP.Upload.AdminExtension.csproj
+		SccProjectTopLevelParentUniqueName9 = Advanced.sln
+		SccProjectName9 = WAPPortals/AdminExtension
+		SccLocalPath9 = WAPPortals\\AdminExtension
+	EndGlobalSection
+EndGlobal

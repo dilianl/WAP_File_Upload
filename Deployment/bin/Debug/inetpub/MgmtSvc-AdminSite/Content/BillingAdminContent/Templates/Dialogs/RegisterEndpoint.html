@@ -1,0 +1,29 @@
+﻿<p class="aux-dialogSubHeader">{{>htmlResources.registerEndpointTitle/}}</p>
+<p class="stepDescription">{{>htmlResources.registerEndpointSubTitle/}}</p>
+
+<div class="um-registerEndpoint">
+    <form class="aux-dialog-form">
+        <div class="aux-dialog-item">
+            <label for="um-endpointUrl" class="aux-dialog-item">{{>htmlResources.endpointName/}}</label>
+            <input id="um-endpointUrl" type="text" maxlength="1024" class="fx-textbox fx-validation fx-editablecontrol"
+                data-val="true" data-val-required="Required" data-val-length="The endpoint URL length must be between {:min:} and {:max:}" data-val-length-min="1" data-val-length-max="1024" data-val-regex="Not URL" data-val-regex-pattern="^(http|https):\/\/(.*)$" />
+        </div>
+        <div class="aux-dialog-item">
+            <label for="um-username" class="aux-dialog-item">{{>htmlResources.userName/}}</label>
+            <input id="um-username" maxlength="128" type="text" class="fx-textbox fx-validation fx-editablecontrol"
+                data-val="true" data-val-required="Required" data-val-length="The username length must be between {:min:} and {:max:}" data-val-length-min="1" data-val-length-max="128" />
+        </div>
+        <div class="aux-dialog-item">
+            <label for="um-password" class="aux-dialog-item">{{>htmlResources.password/}}</label>
+            <input id="um-password" maxlength="255" type="password" class="fx-textbox fx-validation fx-editablecontrol"
+                data-val="true" data-val-required="Required" data-val-length="The password length must be between {:min:} and {:max:}" data-val-length-min="1" data-val-length-max="255" />
+        </div>
+        {{if data.registerReseller == true}}
+            <div class="aux-dialog-item">
+                <label for="um-portalUrl" class="aux-dialog-item">{{>htmlResources.customerAccountManagementPortalURL/}}</label>
+                <input id="um-portalUrl" maxlength="256" type="text" class="fx-textbox fx-validation fx-editablecontrol"
+                    data-val="true" data-val-required="Required" data-val-length="The endpoint URL length must be between {:min:} and {:max:}" data-val-length-min="1" data-val-length-max="256" data-val-regex="Not URL" data-val-regex-pattern="^(http|https):\/\/(.*)$" />
+            </div>
+        {{/if}}
+    </form>
+</div>
